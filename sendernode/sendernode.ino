@@ -26,7 +26,7 @@
   #define FLASH_SS      8 // and FLASH SS on D8
 #endif
 
-#define SERIAL_BAUD   14400
+#define SERIAL_BAUD   1200
 
 int TRANSMITPERIOD = 150; //transmit a packet to gateway so often (in ms)
 char payload[] = "123 ABCDEFGHIJKLMNOPQRSTUVWXYZ";
